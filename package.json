@@ -1,0 +1,17 @@
+{
+  "name": "sn-theme-debugging",
+  "description": "Debugging theme for Standard Notes",
+  "version": "1.0.0",
+  "license": "AGPL-3.0",
+  "main": "debugging-standard-notes.css",
+  "sn": {
+    "main": "debugging-standard-notes.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pascalwei/debugging-theme-standard-notes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pascalwei/debugging-theme-standard-notes/issues"
+  }
+}

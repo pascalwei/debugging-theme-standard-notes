@@ -1,0 +1,134 @@
+:root {
+  
+  --one:	aliceblue;
+  --two: antiquewhite;
+  --three: aqua;
+  --four: aquamarine;
+  --five: azure;
+  --six: beige;
+  --seven: bisque;
+  --eight: black;
+  --nine: blue;
+  --ten: blueviolet;
+  --eleven: brown;
+  --twelve: burlywood;
+  --thirteen: cadetblue;
+  --fourteen: chartreuse;
+  --fifteen: chocolate;
+  --sixteen: coral;
+  --seventeen: cornflowerblue;
+  --eighteen: cornsilk;
+  --nineteen: crimson;
+  --twenty: darkblue;
+  --twenty-one: darkcyan;
+  --twenty-two: darkgoldenrod;
+  --twenty-three: darkgray;
+  --twenty-four: darkgreen;
+  --twenty-five: darkkhaki;
+  --twenty-six: darkmagenta;
+  --twenty-seven: darkolivegreen;
+  --twenty-eight: darkorange;
+  --twenty-nine: darkorchid;
+  --thirty: darkred;
+  --thirty-one: darksalmon;
+  --thirty-two: darkseagreen;
+  --thirty-three: darkslateblue;
+  --thirty-four: darkslategray;
+  --thirty-five: darkturquoise;
+  --thirty-six: darkviolet;
+  --thirty-seven: deeppink;
+  --thirty-eight: deepskyblue;
+  --thirty-nine: dimgray;
+  --forty: dodgerblue;
+  --forty-one: firebrick;
+  --forty-two: floralwhite;
+  --forty-three: forestgreen;
+  --forty-four: fuchsia;
+  --forty-five: gainsboro;
+  --forty-six: ghostwhite;
+  --forty-seven: gold;
+  --forty-eight: goldenrod;
+  --forty-nine: gray;
+  --fifty: green;
+  --fifty-one: greenyellow;
+  --fifty-two: honeydew;
+  --fifty-three: hotpink;
+  --fifty-four: indianred;
+  --fifty-five: indigo;
+  --fifty-six: ivory;
+  --fifty-seven: khaki;
+  
+  --primary-bg-color: var(--one);
+  --secondary-bg-color: var(--two);
+  --editor-bg-color: var(--three);
+  --border-color: var(--four);
+  --ui-text-color: var(--five);
+
+  --sn-desktop-titlebar-bg-color: var(--six);
+  --sn-desktop-titlebar-border-color: var(--seven);
+  --sn-desktop-titlebar-ui-color: var(--eight);
+  --sn-desktop-titlebar-ui-hover-color: var(--nine);
+  
+  --sn-component-foreground-color: var(--ten);
+  --sn-component-background-color: var(--eleven);
+  --sn-component-foreground-highlight-color: var(--twelve);
+  --sn-component-outer-border-color: var(--thirteen);
+  --sn-component-inner-border-color: var(--fourteen);
+
+  --sn-stylekit-info-color: var(--fifteen);
+  --sn-stylekit-info-contrast-color: var(--sixteen);
+  --sn-stylekit-neutral-color: var(--seventeen);
+  --sn-stylekit-neutral-contrast-color: var(--eighteen);
+  --sn-stylekit-success-color: var(--nineteen);
+  --sn-stylekit-success-contrast-color: var(--twenty);
+  --sn-stylekit-warning-color: var(--twenty-one);
+  --sn-stylekit-warning-contrast-color: var(--twenty-two);
+  --sn-stylekit-danger-color: var(--twenty-three);
+  --sn-stylekit-danger-contrast-color: var(--twenty-four);
+  --sn-stylekit-grey-0: var(--twenty-five);
+  --sn-stylekit-grey-3: var(--twenty-six);
+  --sn-stylekit-grey-4: var(--twenty-seven);
+  --sn-stylekit-grey-4-opacity-variant: var(--twenty-eight);
+  --sn-stylekit-grey-5: var(--twenty-nine);
+  --sn-stylekit-shadow-color: var(--thirty);
+  --sn-stylekit-background-color: var(--thirty-one);
+  --sn-stylekit-border-color: var(--thirty-two);
+  --sn-stylekit-foreground-color: var(--thirty-three);
+  --sn-stylekit-contrast-background-color: var(--thirty-four);
+  --sn-stylekit-contrast-foreground-color: var(--thirty-five);
+  --sn-stylekit-contrast-border-color: var(--thirty-six);
+  --sn-stylekit-secondary-background-color: var(--thirty-seven);
+  --sn-stylekit-secondary-foreground-color: var(--thirty-eight);
+  --sn-stylekit-secondary-border-color: var(--thirty-nine);
+  --sn-stylekit-secondary-contrast-background-color: var(--forty);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--forty-one);
+  --sn-stylekit-secondary-contrast-border-color: var(--forty-two);
+  --sn-stylekit-editor-background-color: var(--forty-three);
+  --sn-stylekit-editor-foreground-color: var(--forty-four);
+  --sn-stylekit-paragraph-text-color: var(--forty-five);
+  --sn-stylekit-scrollbar-track-border-color: var(--forty-six);
+  --sn-stylekit-scrollbar-thumb-color: var(--forty-seven);
+  --sn-stylekit-passive-color-3: var(--forty-eight);
+  --sn-stylekit-passive-color-4: var(--forty-nive);
+  --sn-stylekit-passive-color-4-opacity-variant: var(--fifty);
+  --sn-stylekit-passive-color-5: var(--fifty-one);
+  --sn-stylekit-passive-color-6: var(--fifty-two);
+  --sn-stylekit-passive-color-super-light: var(--fifty-three);
+  --navigation-item-selected-background-color: var(--fifty-four);
+}
+
+/* Fix for white color on notes in latest version */
+#notes-column .note:hover, .notes .note:hover,
+#notes-column .note.selected, .notes .note.selected {
+    background-color: var(--fifty-five);
+    border-left: 3px solid var(--fifty-six);
+    transition: all 0.2s linear;
+}
+
+/* Fixes for white color on lockscreen in latest version */
+[data-reach-dialog-overlay]::before {
+  opacity: 1;
+}
+.mb-4.h-30.w-30 circle {
+  fill: var(--fifty-seven);
+}
