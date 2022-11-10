@@ -14,6 +14,5 @@
     "background_color": "#000000",
     "foreground_color": "#ffffff",
     "border_color": "#aaaaaa"
-  },
-  "statusBar": "dark-content"
+  }
 }
