@@ -1,6 +1,6 @@
 :root {
   
-  --one:	aliceblue;
+  --one: aliceblue;
   --two: antiquewhite;
   --three: aqua;
   --four: aquamarine;
@@ -75,6 +75,7 @@
   --sn-component-outer-border-color: var(--thirteen);
   --sn-component-inner-border-color: var(--fourteen);
 
+  --sn-stylekit-theme-type: dark;
   --sn-stylekit-info-color: var(--fifteen);
   --sn-stylekit-info-contrast-color: var(--sixteen);
   --sn-stylekit-neutral-color: var(--seventeen);
