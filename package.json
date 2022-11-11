@@ -13,5 +13,6 @@
   },
   "bugs": {
     "url": "https://github.com/pascalwei/debugging-theme-standard-notes/issues"
-  }
+  },
+  "isDark": true
 }
